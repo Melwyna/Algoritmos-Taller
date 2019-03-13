@@ -1,0 +1,13 @@
+import math
+a2=float(input("Escribe el valor de a:"))
+b1=float(input("Escribe el valor de b:"))
+c3=float(input("Escribe el valor de c:"))
+cua_1=((b1**2)-(4*a2*c3))
+cua_2=math.sqrt(cua_1)
+cua1=((b1**2)+(cua_2))
+cua2=cua1/(2*a2)
+cua_2=((b1**2)-(4*a2*c3))
+cua_3=math.sqrt(cua_2)
+cua3=((b1**2)-(cua_3))
+cua4=cua3/(2*a2)
+print("La primera solucion de la cuadratica de forma positiva (+) es:", "%.3f" %cua2, "y la segunda solucion de la cuadratica de forma negativa (-) es:", "%.3f" %cua4)

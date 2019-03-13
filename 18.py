@@ -1,0 +1,8 @@
+m1=float(input("Escriba la masa del primer objeto (kg):"))
+m2=float(input("Escriba la masa del segundo objeto (kg):"))
+a1=float(input("Escriba la aceleracion del primer objeto (m/s^2):"))
+a2=float(input("Escriba la aceleracion del primer objeto (m/s^2):"))
+F_1=(m1*a1)
+F_2=(m2*a2)
+Ft=(F_1+F_2)
+print("la fuerza entre los objetos es:", Ft)

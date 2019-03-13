@@ -1,0 +1,5 @@
+tiempo=float(input("Escriba el tiempo que demoro el objeto:"))
+aceleracion=float(input("Escriba la aceleracion del objeto:"))
+velocidad=float(input("Escriba la velocidad de el objeto"))
+dis_1=(velocidad*tiempo)+((1/2)*(aceleracion)*(tiempo**2))
+print("la distancia recorrida por el objeto es:", dis_1, "m/s2")

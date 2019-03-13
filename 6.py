@@ -1,0 +1,8 @@
+numero1=float(input("Ingresa el primer numero:"))
+numero2=float(input("Ingresa el segundo numero:"))
+suma=(numero1+numero2)
+resta=(numero1-numero2)
+multiplicacion=(numero1*numero2)
+division=(numero1/numero2)
+residuo=(numero1%numero2)
+print("La suma de los numeros es:", suma, ", La resta de los numeros es:", resta, ", La multiplicacion de los numeros es:", multiplicacion, ", La division de los numeros es:", division, "y el residuo de los numeros es:", residuo)
